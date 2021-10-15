@@ -9,6 +9,8 @@ const char* ssid = "xxxxxxxx";
 const char* password = "xxxxxxxxx";
 int port=80;
 
+#define LED_BUILTIN 2 
+
 WebServer server(port);
 
 const int led = LED_BUILTIN;
